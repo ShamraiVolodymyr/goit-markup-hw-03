@@ -44,13 +44,25 @@ ul {
 /*  --------*/
 
 .conteiner {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 1600px;
   height: 80px;
 }
 .cont-nav {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
+}
+
+.header-item {
+  margin-left: 50px;
+}
+.header-nav {
+}
+.nav-item {
+  margin-left: 50px;
 }
 
 .header-list {
