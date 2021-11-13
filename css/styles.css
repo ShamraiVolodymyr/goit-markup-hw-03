@@ -153,14 +153,11 @@ ul {
   background-color: #757575;
 }
 .section {
+  width: 1200px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.hero-container {
-  align-items: center;
-  padding: 200px 0px 280px 0px;
-}
 .centered {
   text-align: center;
 }
@@ -171,7 +168,8 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
-  margin-bottom: 30px;
+  width: 696px;
+  height: 120px;
 }
 
 .hero-btn {
@@ -202,12 +200,6 @@ ul {
 
   justify-content: center;
 }
-.hero-item:first-child {
-  margin-left: 215px;
-}
-.hero-item:last-child {
-  margin-right: 215px;
-}
 
 .hero-title {
   font-weight: 700;
@@ -234,7 +226,6 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-  margin-bottom: 50px;
 }
 .about-list {
   display: flex;
@@ -246,7 +237,9 @@ ul {
 }
 
 /*---------------------COMMAND---------------------*/
-
+.command {
+  background-color: #f5f4fa;
+}
 .command-list {
   display: flex;
 }
@@ -274,6 +267,7 @@ ul {
   color: var(--second-text-color);
 
   margin-top: 30px;
+  text-align: center;
 }
 
 .command-position {
@@ -283,6 +277,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 
+  text-align: center;
   margin-top: 10px;
 }
 
@@ -332,6 +327,9 @@ ul {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
 }
+.footer-section {
+  padding-left: 50px;
+}
 
 /*---------------------SECOND PAGE----------*/
 /*--------------------PORT-HEADER-----------*/
@@ -358,20 +356,46 @@ ul {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
+.port-header-container {
+  display: flex;
+}
 
 .port-header-link:hover,
 .port-header-link:focus {
   color: var(--accent-color);
 }
+.potr-header-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.port-header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.port-header-nav {
+  display: flex;
+}
+.port-header-logo {
+  margin-right: 70px;
+}
 
 .port-header-btn:hover,
 .port-header-btn:focus {
   color: var(--accent-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .port-header-tel:hover,
 .port-header-tel:focus {
   color: var(--accent-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.port-header-tel {
+  margin-left: 50px;
 }
 
 .port-header-btn {
